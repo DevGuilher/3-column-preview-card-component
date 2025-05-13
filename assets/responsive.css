@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .card-sedan {
+        border-radius: 0.8rem 0.8rem 0 0;
+    }
+
+    .card-sedan p {
+        width: 25vh;
+        margin-bottom: 2rem;
+    }
+
+    .card-suv p {
+        width: 25vh;
+        margin-bottom: 2rem;
+    }
+
+    .card-luxury p {
+        width: 25vh;
+        margin-bottom: 2rem;
+    }
+
+    .card-luxury {
+        border-radius: 0 0 0.8rem 0.8rem;
+    }
+
+    .card-sedan,
+    .card-luxury,
+    .card-suv {
+        width: 80%;
+    }
+}
