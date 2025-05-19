@@ -16,6 +16,18 @@ body {
     background: hsl(0, 0%, 95%);
 }
 
+h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .card-container {
     display: flex;
     flex-direction: row;
@@ -44,6 +56,7 @@ body {
     font-size: 42px;
     font-weight: 500;
     font-family: "Big Shoulders", sans-serif;
+    color: white;
     pointer-events: none;
 }
 
@@ -107,6 +120,7 @@ body {
     font-size: 42px;
     font-weight: 500;
     font-family: "Big Shoulders", sans-serif;
+    color: white;
     pointer-events: none;
 }
 
@@ -171,6 +185,7 @@ body {
     font-size: 42px;
     font-weight: 500;
     font-family: "Big Shoulders", sans-serif;
+    color: white;
     pointer-events: none;
 }
 
